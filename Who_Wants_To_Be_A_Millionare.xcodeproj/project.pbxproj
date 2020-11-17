@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		9C011FE0254D64F100D6A4EA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C011FDF254D64F100D6A4EA /* main.swift */; };
+		9C8B9A72255606310035DCA9 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B9A71255606310035DCA9 /* Game.swift */; };
+		9C8B9A74255606430035DCA9 /* Hard_Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B9A73255606430035DCA9 /* Hard_Game.swift */; };
+		9C8B9A76255606510035DCA9 /* Easy_Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B9A75255606510035DCA9 /* Easy_Game.swift */; };
+		9C8B9A782556065E0035DCA9 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B9A772556065E0035DCA9 /* Question.swift */; };
+		9C8B9A7A2556067C0035DCA9 /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B9A792556067C0035DCA9 /* QuestionBank.swift */; };
+		9C8B9A7C255606900035DCA9 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B9A7B255606900035DCA9 /* Player.swift */; };
+		9C8B9A7E255607820035DCA9 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8B9A7D255607820035DCA9 /* Money.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,13 @@
 /* Begin PBXFileReference section */
 		9C011FDC254D64F100D6A4EA /* Who_Wants_To_Be_A_Millionare */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Who_Wants_To_Be_A_Millionare; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C011FDF254D64F100D6A4EA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9C8B9A71255606310035DCA9 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		9C8B9A73255606430035DCA9 /* Hard_Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hard_Game.swift; sourceTree = "<group>"; };
+		9C8B9A75255606510035DCA9 /* Easy_Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_Game.swift; sourceTree = "<group>"; };
+		9C8B9A772556065E0035DCA9 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		9C8B9A792556067C0035DCA9 /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		9C8B9A7B255606900035DCA9 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		9C8B9A7D255607820035DCA9 /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,13 @@
 			isa = PBXGroup;
 			children = (
 				9C011FDF254D64F100D6A4EA /* main.swift */,
+				9C8B9A772556065E0035DCA9 /* Question.swift */,
+				9C8B9A71255606310035DCA9 /* Game.swift */,
+				9C8B9A73255606430035DCA9 /* Hard_Game.swift */,
+				9C8B9A75255606510035DCA9 /* Easy_Game.swift */,
+				9C8B9A792556067C0035DCA9 /* QuestionBank.swift */,
+				9C8B9A7B255606900035DCA9 /* Player.swift */,
+				9C8B9A7D255607820035DCA9 /* Money.swift */,
 			);
 			path = Who_Wants_To_Be_A_Millionare;
 			sourceTree = "<group>";
@@ -120,7 +141,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C8B9A782556065E0035DCA9 /* Question.swift in Sources */,
 				9C011FE0254D64F100D6A4EA /* main.swift in Sources */,
+				9C8B9A76255606510035DCA9 /* Easy_Game.swift in Sources */,
+				9C8B9A72255606310035DCA9 /* Game.swift in Sources */,
+				9C8B9A7C255606900035DCA9 /* Player.swift in Sources */,
+				9C8B9A74255606430035DCA9 /* Hard_Game.swift in Sources */,
+				9C8B9A7E255607820035DCA9 /* Money.swift in Sources */,
+				9C8B9A7A2556067C0035DCA9 /* QuestionBank.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
