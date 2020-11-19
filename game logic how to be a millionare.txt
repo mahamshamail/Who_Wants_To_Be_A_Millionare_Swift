@@ -1,0 +1,49 @@
+game{
+
+//general properties
+	name_of_the_game
+	player
+	rules
+	level = [easy , hard ]
+	
+//specific to the game
+	quests
+
+	winCondition{}
+	loseCondition{}
+	questionsRandomised{}
+
+}
+
+easyRounds{
+}
+
+hardRounds{
+
+}
+
+
+player{
+
+name
+score
+money
+
+earnsMoney {}
+losesMoney {}
+winsMoney {}
+walksAway {}
+
+}
+
+quests{
+
+	question
+	wrong answers
+	right answer
+	
+	optionsRandomisedOrder(){
+	
+	}
+	
+}
